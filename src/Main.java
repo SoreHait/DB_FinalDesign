@@ -1,4 +1,5 @@
-import UIClasses.BaseLayout;
+import UIClasses.BaseFrame;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -32,6 +33,6 @@ public class Main {
     public static void main(String[] args) throws SQLException {
 //        Connection conn = getConnect();
         String sid = "1";
-        new BaseLayout();
+        new BaseFrame();
     }
 }
